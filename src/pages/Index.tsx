@@ -1,5 +1,5 @@
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Features from '@/components/Features';
@@ -7,9 +7,18 @@ import Testimonials from '@/components/Testimonials';
 import FAQ from '@/components/FAQ';
 import Disclaimer from '@/components/Disclaimer';
 import Footer from '@/components/Footer';
+import DisclaimerPopup from '@/components/DisclaimerPopup';
 
 const Index = () => {
+  const [showDisclaimer, setShowDisclaimer] = useState(false);
+  
   useEffect(() => {
+    // Check if user has accepted the disclaimer before
+    const hasAccepted = localStorage.getItem('disclaimerAccepted');
+    if (!hasAccepted) {
+      setShowDisclaimer(true);
+    }
+    
     // Animate elements on scroll
     const fadeElements = document.querySelectorAll('.fade-up-in');
     
@@ -29,8 +38,14 @@ const Index = () => {
     return () => observer.disconnect();
   }, []);
   
+  const handleDisclaimerAccept = () => {
+    localStorage.setItem('disclaimerAccepted', 'true');
+    setShowDisclaimer(false);
+  };
+  
   return (
     <div className="min-h-screen flex flex-col bg-cyber-darker relative overflow-hidden">
+      {showDisclaimer && <DisclaimerPopup onAccept={handleDisclaimerAccept} />}
       <Header />
       <main>
         <Hero />

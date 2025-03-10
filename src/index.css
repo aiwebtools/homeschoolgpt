@@ -152,6 +152,24 @@
   }
 }
 
+/* Add new animation for the shimmer effect */
+.bg-size-200 {
+  background-size: 200% 100%;
+}
+
+.animate-shimmer {
+  animation: shimmerBackground 2s infinite linear;
+}
+
+@keyframes shimmerBackground {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
 /* Font definitions */
 .font-display {
   font-family: 'SF Pro Display', 'Inter', system-ui, sans-serif;
@@ -181,4 +199,13 @@
 
 .rotate-y {
   transform: rotateY(10deg);
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
 }
