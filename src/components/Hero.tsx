@@ -61,17 +61,17 @@ const Hero = () => {
         <div className="w-full md:w-1/2 space-y-6">
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium text-white border border-white/20 mb-6">
             <Sparkles className="w-4 h-4 text-neon-blue" />
-            <span>Revolutionize your homeschooling journey</span>
+            <span>Free AI Tools from AIWEBTOOLS.AI</span>
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold tracking-tight">
-            <span className="text-white">Your AI-Powered</span>
+            <span className="text-white">AI WEB TOOLS:</span>
             <br />
-            <span className="text-gradient">Homeschooling Guide</span>
+            <span className="text-gradient">Home School GPT</span>
           </h1>
           
           <p className="text-lg text-white/80 max-w-xl">
-            Home School GPT provides personalized legal guidance, educational resources, and tools to make homeschooling simple, effective, and compliant with local regulations.
+            Revolutionary free AI tools from AIWEBTOOLS.AI. Home School GPT provides personalized legal guidance, educational resources, and AI-powered tools to make homeschooling simple, effective, and compliant with local regulations.
           </p>
           
           <div className="flex flex-wrap gap-4 pt-4">
@@ -80,25 +80,27 @@ const Hero = () => {
               target="_blank" 
               rel="noopener noreferrer" 
               className="neon-glow px-8 py-3 text-center bg-gradient-to-r from-neon-blue to-neon-purple rounded-lg font-semibold text-white hover:opacity-90 transition-opacity"
+              aria-label="Try Home School GPT - Free AI Tool from AIWEBTOOLS.AI"
             >
-              Try Home School GPT
+              Try Free AI Tool Now
             </a>
             <a 
               href="#features" 
               className="px-8 py-3 border border-white/20 hover:border-neon-blue/50 rounded-lg font-semibold text-white hover:text-neon-blue transition-colors"
+              aria-label="Learn more about AI WEB TOOLS features"
             >
-              Learn More
+              Explore AI Tools
             </a>
           </div>
           
           <div className="grid grid-cols-3 gap-4 pt-8">
             <div className="text-center">
-              <div className="text-2xl font-bold text-white">100+</div>
-              <div className="text-sm text-white/70">State Regulations</div>
+              <div className="text-2xl font-bold text-white">50+</div>
+              <div className="text-sm text-white/70">Free AI Tools</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-white">500+</div>
-              <div className="text-sm text-white/70">Educational Resources</div>
+              <div className="text-2xl font-bold text-white">100K+</div>
+              <div className="text-sm text-white/70">Users Worldwide</div>
             </div>
             <div className="text-center">
               <div className="text-2xl font-bold text-white">24/7</div>
@@ -111,7 +113,7 @@ const Hero = () => {
           <div className="transform-3d hover:rotate-y relative rounded-xl overflow-hidden shadow-2xl border border-white/10 transition-all duration-300">
             <img 
               src="https://img1.wsimg.com/isteam/ip/9fd6d942-5b46-4025-92e2-0f1ec2a7adf2/a-photo-of-a-parent-teaching-their-ki-0096e43.jpeg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1200,cg:true" 
-              alt="Parent homeschooling child" 
+              alt="Free AI tools for homeschooling from AIWEBTOOLS.AI - AI WEB TOOLS" 
               className="w-full h-auto rounded-xl transform transition-transform hover:scale-105 duration-700"
               loading="lazy"
             />
@@ -120,12 +122,12 @@ const Hero = () => {
               <div className="bg-cyber-dark/80 backdrop-blur-md border border-white/10 rounded-lg p-4">
                 <div className="flex gap-2 items-center mb-2">
                   <Sparkles className="w-5 h-5 text-neon-blue animate-pulse" />
-                  <span className="text-neon-blue font-semibold">AI-Powered Education</span>
+                  <span className="text-neon-blue font-semibold">AI WEB TOOLS - Free AI Education</span>
                 </div>
                 <p className="text-white/90 text-sm">
-                  "Home School GPT transformed how I teach my children. It's like having an expert educator and legal advisor rolled into one!"
+                  "AIWEBTOOLS.AI transformed how I teach my children. These free AI tools are like having an expert educator and legal advisor!"
                 </p>
-                <div className="mt-2 text-xs text-white/70">– Sarah, Homeschool Parent of 3</div>
+                <div className="mt-2 text-xs text-white/70">– Sarah, AI WEB TOOLS User</div>
               </div>
             </div>
           </div>

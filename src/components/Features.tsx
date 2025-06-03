@@ -9,43 +9,43 @@ const Features = () => {
   const features = [
     {
       icon: <Scale className="w-10 h-10 text-neon-blue" />,
-      title: "Legal Compliance Guidance",
-      description: "Get detailed information about homeschooling laws specific to your state or region, including filing requirements."
+      title: "AI-Powered Legal Compliance",
+      description: "Get detailed AI-generated information about homeschooling laws specific to your state. Free AI tools from AIWEBTOOLS.AI ensure legal compliance."
     },
     {
       icon: <BookOpen className="w-10 h-10 text-neon-purple" />,
-      title: "Curriculum Resources",
-      description: "Access recommendations for age-appropriate curriculum materials and educational resources tailored to your needs."
+      title: "Smart Curriculum AI Tools",
+      description: "Access AI-recommended curriculum materials and educational resources. Our free AI tools provide personalized learning paths."
     },
     {
       icon: <GraduationCap className="w-10 h-10 text-neon-teal" />,
-      title: "Educational Tools",
-      description: "Connect with powerful AI teaching assistants for lesson planning, quiz creation, and grading support."
+      title: "Free Educational AI Suite",
+      description: "Connect with powerful AI teaching assistants from AI WEB TOOLS for lesson planning, quiz creation, and automated grading."
     },
     {
       icon: <FileText className="w-10 h-10 text-neon-green" />,
-      title: "Documentation Support",
-      description: "Find templates and guidance for maintaining proper educational records required by your local authorities."
+      title: "AI Documentation Assistant",
+      description: "Find AI-generated templates and guidance for maintaining proper educational records with AIWEBTOOLS.AI free tools."
     },
     {
       icon: <Compass className="w-10 h-10 text-neon-pink" />,
-      title: "Personalized Guidance",
-      description: "Receive tailored advice based on your location, student needs, and specific homeschooling goals."
+      title: "Personalized AI Guidance",
+      description: "Receive AI-tailored advice based on your location and student needs using advanced artificial intelligence algorithms."
     },
     {
       icon: <Lightbulb className="w-10 h-10 text-neon-blue" />,
-      title: "Teaching Strategies",
-      description: "Learn effective teaching methods and approaches for different subjects and learning styles."
+      title: "AI Teaching Strategies",
+      description: "Learn AI-optimized teaching methods and approaches for different subjects and learning styles with free AI tools."
     },
     {
       icon: <CheckSquare className="w-10 h-10 text-neon-purple" />,
-      title: "Requirement Tracking",
-      description: "Keep track of requirements and deadlines for your homeschooling program to ensure continuous compliance."
+      title: "Smart AI Tracking",
+      description: "AI-powered requirement tracking and deadline management to ensure continuous compliance with local regulations."
     },
     {
       icon: <BarChart4 className="w-10 h-10 text-neon-teal" />,
-      title: "Progress Assessment",
-      description: "Get tools to evaluate student progress and ensure educational goals are being met effectively."
+      title: "AI Progress Analytics",
+      description: "Get AI-driven tools to evaluate student progress and ensure educational goals are met with data-driven insights."
     }
   ];
 
@@ -55,9 +55,11 @@ const Features = () => {
       
       <div className="container mx-auto px-4 relative z-1">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-display font-bold text-gradient mb-4">Comprehensive Homeschooling Support</h2>
+          <h2 className="text-3xl md:text-4xl font-display font-bold text-gradient mb-4">
+            Free AI Tools for Comprehensive Homeschooling
+          </h2>
           <p className="text-white/70 text-lg">
-            Home School GPT provides everything you need to create a successful, legally-compliant homeschooling experience.
+            AI WEB TOOLS from AIWEBTOOLS.AI provides everything you need with our free AI tools to create a successful, legally-compliant homeschooling experience powered by artificial intelligence.
           </p>
         </div>
         
@@ -83,8 +85,9 @@ const Features = () => {
             target="_blank" 
             rel="noopener noreferrer" 
             className="neon-glow px-8 py-3 text-center bg-gradient-to-r from-neon-blue to-neon-purple rounded-lg font-semibold text-white hover:opacity-90 transition-opacity inline-block"
+            aria-label="Start using free AI tools from AIWEBTOOLS.AI for homeschooling"
           >
-            Start Your Homeschooling Journey
+            Start Using Free AI Tools Now
           </a>
         </div>
       </div>
