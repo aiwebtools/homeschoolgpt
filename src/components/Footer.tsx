@@ -101,7 +101,7 @@ const Footer = () => {
         
         <div className="border-t border-white/10 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-white/50 text-sm text-center md:text-left">
-            <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="hover:text-neon-blue transition-colors">
+            <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="hover:text-neon-blue transition-colors">
               © 2025 AI WEB TOOLS LLC. All rights reserved.
             </a>
           </div>
