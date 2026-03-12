@@ -18,7 +18,7 @@ const Logo = ({ className = '' }: LogoProps) => {
       <div className="flex flex-col">
         <span className="font-display font-bold text-lg tracking-tight text-white">Home School GPT</span>
         <span className="text-xs text-white/70 font-medium -mt-1">
-          <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="hover:text-neon-blue transition-colors">
+          <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="hover:text-neon-blue transition-colors">
             Presented by AiWebTools.Ai
           </a>
         </span>

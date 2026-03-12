@@ -77,7 +77,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://aiwebtools.ai/terms-of-services" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-neon-blue transition-colors flex items-center gap-1">
+                <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-neon-blue transition-colors flex items-center gap-1">
                   <ChevronRight className="w-4 h-4" />
                   <span>Terms of Service</span>
                 </a>
@@ -88,7 +88,7 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">More From AiWebTools</h3>
             <a 
-              href="https://www.aiwebtools.ai" 
+              href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group block p-4 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl hover:border-neon-blue/30 transition-colors"
@@ -101,7 +101,7 @@ const Footer = () => {
         
         <div className="border-t border-white/10 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-white/50 text-sm text-center md:text-left">
-            <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="hover:text-neon-blue transition-colors">
+            <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="hover:text-neon-blue transition-colors">
               © 2025 AI WEB TOOLS LLC. All rights reserved.
             </a>
           </div>
@@ -115,7 +115,7 @@ const Footer = () => {
           </div>
           
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             target="_blank" 
             rel="noopener noreferrer"
             className="rounded-full bg-gradient-to-r from-neon-blue to-neon-purple px-6 py-2 text-sm font-medium text-white hover:opacity-90 transition-opacity"
