@@ -29,7 +29,7 @@ const Header = () => {
           <a href="https://learnanycourse.lovable.app/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-white hover:text-neon-blue transition-colors">Learn Any Course GPT</a>
           <a href="#faq" className="text-sm font-medium text-white hover:text-neon-blue transition-colors">FAQ</a>
           <a href="#disclaimer" className="text-sm font-medium text-white hover:text-neon-blue transition-colors">Disclaimer</a>
-          <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-white hover:text-neon-blue transition-colors">More AI Tools</a>
+          <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-white hover:text-neon-blue transition-colors">More AI Tools</a>
           <a href="https://chatgpt.com/g/g-vYvygy1Zr-home-school-gpt" target="_blank" rel="noopener noreferrer" className="cyber-button">
             <span>Get Started</span>
           </a>
