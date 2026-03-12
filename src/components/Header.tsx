@@ -53,7 +53,7 @@ const Header = () => {
           <a href="https://learnanycourse.lovable.app/" target="_blank" rel="noopener noreferrer" className="block py-2 text-white hover:text-neon-blue transition-colors">Learn Any Course GPT</a>
           <a href="#faq" onClick={() => setIsMenuOpen(false)} className="block py-2 text-white hover:text-neon-blue transition-colors">FAQ</a>
           <a href="#disclaimer" onClick={() => setIsMenuOpen(false)} className="block py-2 text-white hover:text-neon-blue transition-colors">Disclaimer</a>
-          <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="block py-2 text-white hover:text-neon-blue transition-colors">More AI Tools</a>
+          <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="block py-2 text-white hover:text-neon-blue transition-colors">More AI Tools</a>
           <a href="https://chatgpt.com/g/g-vYvygy1Zr-home-school-gpt" target="_blank" rel="noopener noreferrer" className="block py-2 text-center bg-gradient-to-r from-neon-blue to-neon-purple rounded-lg px-4 py-2 font-semibold text-white">
             Get Started
           </a>

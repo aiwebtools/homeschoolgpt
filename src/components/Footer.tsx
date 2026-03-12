@@ -115,7 +115,7 @@ const Footer = () => {
           </div>
           
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             target="_blank" 
             rel="noopener noreferrer"
             className="rounded-full bg-gradient-to-r from-neon-blue to-neon-purple px-6 py-2 text-sm font-medium text-white hover:opacity-90 transition-opacity"
