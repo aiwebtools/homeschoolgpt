@@ -88,7 +88,7 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">More From AiWebTools</h3>
             <a 
-              href="https://www.aiwebtools.ai" 
+              href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group block p-4 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl hover:border-neon-blue/30 transition-colors"
